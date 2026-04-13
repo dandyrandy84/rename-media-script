@@ -4,23 +4,23 @@ A cross-platform Python script that renames photos and videos based on their cap
 
 ## Features
 
-✅ **Smart Date Detection**
+**Smart Date Detection**
 - Extracts EXIF data from images (JPG, PNG, HEIC, TIFF, RAW formats)
 - Reads metadata from videos (MP4, MOV, AVI, MKV, etc.)
 - Falls back to file creation date when metadata is unavailable
 
-✅ **Intelligent Naming**
+**Intelligent Naming**
 - Format: `YYYY-MM-DD_HHMMSS_OriginalName.ext`
 - Example: `2024-12-01_143045_IMG_1234.jpg`
 - Preserves original filename to handle timestamp collisions
 
-✅ **Safe Operations**
+**Safe Operations**
 - Dry-run mode to preview changes before executing
 - Comprehensive error handling
 - Detailed logging with multiple verbosity levels
 - Progress tracking for batch operations
 
-✅ **Cross-Platform**
+**Cross-Platform**
 - Works on Windows 11, Linux, and macOS
 - Uses Python's `pathlib` for portable path handling
 
@@ -66,7 +66,7 @@ pip install pymediainfo
 
 1. **Install Python**
    - Download Python 3.11+ from https://www.python.org/downloads/
-   - ✅ Check "Add Python to PATH" during installation
+   - Check "Add Python to PATH" during installation
    - Verify installation:
    ```cmd
    python --version
